@@ -524,10 +524,10 @@ static void end_recovery() {
 static void init_os (char** items,int boot) {    
     if ( !strlen(os) ) {
 				RootInfo* info=get_root_info_for_path("SYSTEM:");
-				info->device="/dev/stl6";
+				info->device="/dev/stl5";
 				
 				info=get_root_info_for_path("DATA:");
-				info->device="/dev/stl5";
+				info->device="/dev/stl6";
 				return;
 			}
 
