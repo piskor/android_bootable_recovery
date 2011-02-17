@@ -20,3 +20,6 @@ Ported from LeshaK's recovery:
 - RFS Wiping and Formatting
 - Key codes
 - Framebuffer hack
+
+18.02.2011 !!!WARNING!!! by piskor
+swapped data and system partitions - for use with /system on /dev/stl5 and /data on /dev/stl6
